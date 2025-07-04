@@ -20,7 +20,7 @@ const cityData = [
 
 const NewspaperSection = () => {
   return (
-    <div className="container text-center my-5">
+    <div style={{width:"1000px"}} className="container text-center my-5">
       <h1 className="mb-4" style={{ fontFamily: 'Noto Nastaliq Urdu' }}>  ہماراسماج    </h1>
       <div className="row justify-content-center">
        {cityData.map((city, index) => (
@@ -34,8 +34,8 @@ const NewspaperSection = () => {
 
         {/* Sunday Magazine */}
         <div className="col-6 col-sm-4 col-md-3 mb-4">
-          <img style={{height:"230px",width:"300px"}} src={SundayMagazine} className="img-fluid border" alt="سنڈے میگزین" />
-          <h2 className="mt-2" style={{ fontFamily: 'Noto Nastaliq Urdu' }}>سنڈے میگزین</h2>
+        <a href="/sindhi">  <img style={{height:"230px",width:"300px"}} src={SundayMagazine} className="img-fluid border" alt="سنڈے میگزین" />
+</a>          <h2 className="mt-2" style={{ fontFamily: 'Noto Nastaliq Urdu' }}>سنڈے میگزین</h2>
         </div>
       </div>
     </div>

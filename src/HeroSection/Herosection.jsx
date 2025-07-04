@@ -75,15 +75,16 @@ const newsImages = [image1, image2, image3, image4, image5];
 
 const UrduNewspaper = () => {
   return (
-    <div
-      className="container-fluid p-0"
+    <div 
+      className="container p-0"
       style={{
         fontFamily: 'Arial, sans-serif',
         direction: 'rtl',
         backgroundColor: 'white',
+        width:"100%"
       }}
     >
-      {/* Top Red Header */}
+      {/* Top Red Header
       <div className="bg-danger text-white py-2 px-3">
         <div className="row align-items-center">
           <div className="col-2">
@@ -96,7 +97,7 @@ const UrduNewspaper = () => {
             <small>Daily Express</small>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Top News Strip with Local Images */}
       <div className="bg-light border-bottom py-3 px-2">
